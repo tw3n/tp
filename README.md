@@ -1,5 +1,10 @@
 # tp
 
+## Getting started
+
+- Country `fr`
+- GET `/weather?zip=xx`
+
 As it happens often, you’re not the one who wrote the app but you still have to Dockerize it.
 
 ## Requirements
