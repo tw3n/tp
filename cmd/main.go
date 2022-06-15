@@ -12,8 +12,8 @@ import (
 )
 
 type Config struct {
-	APIKey  string
-	Country string
+	APIKey  string `arg:"env"`
+	Country string `arg:"env"`
 }
 
 func main() {
