@@ -52,7 +52,9 @@ func main() {
 		})
 	})
 
-	http.ListenAndServe(":4000", r)
+	if err := http.ListenAndServe(":4000", r); err != nil {
+		log.Fatalln(err)
+	}
 }
 
 type errorResponse struct {
